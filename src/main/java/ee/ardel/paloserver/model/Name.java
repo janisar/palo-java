@@ -42,8 +42,8 @@ public class Name {
 
     public static class Builder {
 
-        String firstName;
-        String lastName;
+        private String firstName;
+        private String lastName;
 
         public Builder firstName(String firstName) {
             this.firstName = firstName;
